@@ -1,0 +1,9 @@
+F1: 0.072 (TaP: 0.042, TaR: 0.245)
+# of detected anomalies: 7
+Detected anomalies: [<TaPR_pkg.DataManage.Range.Range object at 0x0000016B13B01E80>, <TaPR_pkg.DataManage.Range.Range object at 0x0000016B1473AFD0>, <TaPR_pkg.DataManage.Range.Range object at 0x0000016B14733670>, <TaPR_pkg.DataManage.Range.Range object at 0x0000016B1469A610>, <TaPR_pkg.DataManage.Range.Range object at 0x0000016B1469A640>, <TaPR_pkg.DataManage.Range.Range object at 0x0000016B146A8100>, <TaPR_pkg.DataManage.Range.Range object at 0x0000016B146A85E0>]
+
+
+Point-adjust Á¡¼ö
+recall : 0.9789
+precision : 0.1197
+f1_score : 0.2133

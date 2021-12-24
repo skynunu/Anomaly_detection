@@ -1,0 +1,9 @@
+F1: 0.027 (TaP: 0.019, TaR: 0.048)
+# of detected anomalies: 1
+Detected anomalies: [<TaPR_pkg.DataManage.Range.Range object at 0x00000209D591E5B0>]
+
+
+Point-adjust Á¡¼ö
+recall : 0.4483
+precision : 0.0451
+f1_score : 0.082
