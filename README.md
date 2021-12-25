@@ -8,14 +8,14 @@
 * HAICon2020 산업제어시스템 대회에서 1등모델은 ETaPR : 0.93793이 나왔고 이를 보완한 Autoencoder +GRU stacking 모델은 0.953이 나왔다. 
 
 ## 2. USAD
-* reference paper : UnSupervised Anomaly Detection on Multivariate Time Series 논문을 참고하였다 
+* reference paper : UnSupervised Anomaly Detection on Multivariate Time Series 
 * paper link : https://dl.acm.org/doi/10.1145/3394486.3403392
-* data : USAD 모델을 참고해서 SWaT데이터와 WADI데이터를 실험해보았다
-
-
+* data :  SWaT데이터와 WADI데이터를 실험
 
 ## 3. USAD + GRU stacking
-## 환경설정 : GTX 3090 사용
+* front모델 : USAD, back모델 : GRU
+* USAD모델에서, 출력층을 anomaly score가 아닌, 전체 feature값이 나오도록 수정하고 이를 다시 GRU모델에 입력값으로 넣음
+
 
 
 
